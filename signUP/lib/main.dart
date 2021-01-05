@@ -74,6 +74,23 @@ void main() => runApp(
                         hintText: '   Confirm Password'),
                   ),
                 ),
+                Padding(
+                  padding: EdgeInsets.all(14.0),
+                  child: CheckboxListTile(
+                      value: false,
+                      title: Text(
+                          "By continuing you agree to out Terms and Conditions."),
+                      controlAffinity: ListTileControlAffinity.leading,
+                      onChanged: null),
+                ),
+                Padding(
+                  padding: EdgeInsets.all(14.0),
+                  child: RaisedButton(
+                    onPressed: () {},
+                    child:
+                        const Text('Sign Up.', style: TextStyle(fontSize: 20)),
+                  ),
+                ),
               ],
             ),
           ),
