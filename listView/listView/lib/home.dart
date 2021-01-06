@@ -17,15 +17,19 @@ class _HomeState extends State<Home> {
         children: <Widget>[
           Padding(
             padding: EdgeInsets.all(14.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Image.asset(
-                  'assets/images/images.jpg',
-                  height: 200,
-                  width: 200,
+            child: Row(
+              children: [
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: <Widget>[
+                    Image.asset(
+                      'assets/images/images.jpg',
+                      height: 100,
+                      width: 100,
+                    ),
+                    Text('Game day Barber'),
+                  ],
                 ),
-                Text('Game day Barber'),
               ],
             ),
           ),
