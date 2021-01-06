@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:signUP/deshboard.dart';
-import 'package:signUP/home.dart';
+import 'package:listView/home.dart';
 
-final bgcolor = const Color(0xFF5DA3FA);
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   @override
